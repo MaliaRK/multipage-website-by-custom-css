@@ -1,0 +1,214 @@
+.maindiv {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.about {
+    background-color: #000000cf;
+    color: whitesmoke;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 2%;
+    align-items: center;
+}
+
+.about h2 {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.about p {
+    margin: 5% 5% 0 5%;
+    font-size: larger;
+    padding-bottom: 6%;
+}
+
+.phrase {
+    background-image: url('/2 1.png');
+    width: auto;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.phrase p {
+    margin: 10% 31%;
+}
+
+.sections {
+    background-color: #000000cf;
+    padding: 8% 0 4% 0;
+}
+
+.ourMenu {
+    color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    padding-right: 2%;
+    position: relative;
+}
+
+.ourMenu div h2 {
+    text-decoration: underline;
+}
+
+.maindish {
+    position: absolute;
+    right: 28%;
+}
+
+table {
+    background-color: #B5986D;
+    border-collapse: separate;
+    border-spacing: 25px;
+    border-radius: 5px;
+    padding: 2% 0;
+}
+
+.ourMenu img {
+    width: 400px;
+    height: 300px;
+}
+
+.chef {
+    margin-top: 20%;
+    margin-left: 1%;
+    color: whitesmoke;
+    display: flex;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.chef img {
+    background-color: #B5986D;
+    width: 300px;
+    height: 400px;
+    padding: 4% 4% 4% 1%;
+    border-radius: 5px;
+}
+
+.masterchef {
+    position: absolute;
+    left: 27%;
+}
+
+.masterchef h2 {
+    text-decoration: underline;
+}
+
+.masterchef p {
+    width: 30%;
+    margin-left: 8%;
+}
+
+.hr {
+    max-width: 25%;
+    height: 1px;
+    background-color: whitesmoke;
+    margin-left: 8%;
+}
+
+.reservation {
+    background-image: url('/Reservation.png');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reservation h2 {
+    text-decoration: underline;
+    text-align: end;
+    color: whitesmoke;
+    margin-right: 23%;
+    padding-top: 3%;
+    font-size: xx-large;
+}
+
+@media (max-width: 316px) {
+    .about h2 {
+        font-size: x-large;
+    }
+
+    .about p {
+        font-size: large;
+    }
+
+    .phrase {
+        padding-bottom: 4%;
+    }
+
+    .ourMenu img {
+        width: 280px;
+    }
+
+    table {
+        border-spacing: 15px;
+      }
+
+      .chef {
+        display: flex;
+        flex-direction: column;
+    }
+
+      .chef img {
+        width: 280px;
+        height: 400px;
+        order: 2;
+    }
+
+    .chef {
+        margin-top: 90%;        
+    }
+
+    .masterchef {
+        order: 1;
+        position: static;
+        left: 2%;
+    }
+
+    .masterchef p {
+        width: 80%;
+        margin-left: 8%;
+    }
+}
+
+@media (min-width: 317px) and (max-width: 640px) {
+    .maindish {
+        left: 10px;
+    }
+
+    .chef {
+        margin-top: 38%;
+        margin-left: 10px;
+    }
+
+    .masterchef {
+        left: 47%;
+    }
+
+    .masterchef p {
+        width: 89%;
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px){
+    .chef {
+        margin-top: 30%;
+    }
+
+    .masterchef p {
+        width: 70%;
+    }
+
+    .masterchef {
+        left: 42%;
+    }
+}
