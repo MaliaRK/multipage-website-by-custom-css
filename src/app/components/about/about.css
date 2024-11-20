@@ -131,7 +131,7 @@ table {
     font-size: xx-large;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 300px) {
     .about h2 {
         font-size: x-large;
     }
@@ -179,7 +179,7 @@ table {
     }
 }
 
-@media (min-width: 341px) and (max-width: 640px) {
+@media (min-width: 301px) and (max-width: 640px) {
     .maindish {
         left: 10px;
     }
