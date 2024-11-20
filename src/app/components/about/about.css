@@ -153,6 +153,7 @@ table {
       }
 
       .chef {
+        position: static;
         display: flex;
         flex-direction: column;
     }
